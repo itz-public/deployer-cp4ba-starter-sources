@@ -2,7 +2,7 @@ apiVersion: operators.coreos.com/v1alpha2
 kind: OperatorGroup
 metadata:
   name: ibm-cp4a-operator-catalog-group
-  namespace: default
+  namespace: cp4ba-starter
 spec:
   targetNamespaces:
-  - default
+  - cp4ba-starter
