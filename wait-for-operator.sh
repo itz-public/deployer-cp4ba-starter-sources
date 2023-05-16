@@ -1,6 +1,6 @@
 
 #!/bin/bash
-namespace="default"
+namespace="cp4ba-starter"
 while ! echo $(oc get csv -n "$namespace" --no-headers -o custom-columns=NAME:.metadata.name) | grep -c "ibm-cp4a-operator.*";
 do
     echo "Waitng for csv to install..."
