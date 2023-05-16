@@ -1,0 +1,12 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: icp4a-access-rolebinding
+  namespace: cp4ba-starter
+subjects:
+- kind: User
+  name: system:serviceaccount:default:openshift-client-sa
+roleRef:
+  kind: Role
+  name: icp4a-access-role
+  apiGroup: rbac.authorization.k8s.io
