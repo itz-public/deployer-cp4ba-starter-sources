@@ -286,7 +286,7 @@ spec:
       sc_slow_file_storage_classname: ''
     encryption_key_secret: ''
     root_ca_secret: custom-tls-secret
-    external_tls_certificate_secret: ''
+    external_tls_certificate_secret: custom-tls-secret
     sc_drivers_url: ''
     olm_sc_content_initialization: false
     olm_sc_content_verification: false
