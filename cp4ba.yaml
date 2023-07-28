@@ -330,11 +330,11 @@ spec:
   olm_starter_document_processing: true
   olm_starter_workflow: true
   olm_deployment_type: Starter
-  olm_production_application: true
-  olm_production_content: true
-  olm_production_decisions: true
-  olm_production_decisions_ads: true
-  olm_production_document_processing: true
-  olm_production_workflow: true
-  olm_production_workflow_process_service: true
+  olm_production_application: false
+  olm_production_content: false
+  olm_production_decisions: false
+  olm_production_decisions_ads: false
+  olm_production_document_processing: false
+  olm_production_workflow: false
+  olm_production_workflow_process_service: false
   olm_ibm_license: true
