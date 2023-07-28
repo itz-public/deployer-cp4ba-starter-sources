@@ -285,7 +285,7 @@ spec:
       sc_medium_file_storage_classname: ''
       sc_slow_file_storage_classname: ''
     encryption_key_secret: ''
-    root_ca_secret: icp4a-root-ca
+    root_ca_secret: custom-tls-secret
     external_tls_certificate_secret: ''
     sc_drivers_url: ''
     olm_sc_content_initialization: false
@@ -323,18 +323,18 @@ spec:
     lc_ldap_user_name_attribute: 'user:sAMAccountName'
     lc_selected_ldap_type: Microsoft Active Directory
   appVersion: ${2}
-  olm_starter_application: false
-  olm_starter_content: false
-  olm_starter_decisions: false
-  olm_starter_decisions_ads: false
-  olm_starter_document_processing: false
-  olm_starter_workflow: false
+  olm_starter_application: true
+  olm_starter_content: true
+  olm_starter_decisions: true
+  olm_starter_decisions_ads: true
+  olm_starter_document_processing: true
+  olm_starter_workflow: true
   olm_deployment_type: Starter
-  olm_production_application: false
-  olm_production_content: false
-  olm_production_decisions: false
-  olm_production_decisions_ads: false
-  olm_production_document_processing: false
-  olm_production_workflow: false
-  olm_production_workflow_process_service: false
+  olm_production_application: true
+  olm_production_content: true
+  olm_production_decisions: true
+  olm_production_decisions_ads: true
+  olm_production_document_processing: true
+  olm_production_workflow: true
+  olm_production_workflow_process_service: true
   olm_ibm_license: true
