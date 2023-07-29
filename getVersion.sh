@@ -1,6 +1,9 @@
+
+touch cp-index.yaml
+
 curl -s https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-cp-automation/index.yaml > cp-index.yaml
 
-version=$(yq eval '.versions | with_entries(select(.value.appVersion == "22.0.2-IF004")) | keys' cp-index.yaml)
+version=$(yq eval '.versions | with_entries(select(.value.appVersion == "22.0.2-IF006")) | keys' cp-index.yaml)
 
 
 version=$(echo "$version" | tr -d '-')
