@@ -125,7 +125,6 @@ spec:
       pfs: false
       bai: false
       baml: false
-  olm_starter_content: true
   datasource_configuration:
     dc_ca_datasource:
       tenant_databases: []
