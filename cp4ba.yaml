@@ -110,12 +110,12 @@ spec:
     application:
       ban: false
     content:
-      bai: false
-      cmis: false
-      css: false
-      iccsap: false
-      ier: false
-      tm: false
+      bai: true
+      cmis: true
+      css: true
+      iccsap: true
+      ier: true
+      tm: true
     decisions:
       bai: false
     workstreams:
@@ -125,6 +125,7 @@ spec:
       pfs: false
       bai: false
       baml: false
+  olm_starter_content: true
   datasource_configuration:
     dc_ca_datasource:
       tenant_databases: []
@@ -294,9 +295,9 @@ spec:
     sc_drivers_url: ''
     encryption_key_secret: ''
     sc_deployment_baw_license: ''
-    external_tls_certificate_secret: ''
-    root_ca_secret: icp4a-root-ca
-    sc_deployment_license: production
+    external_tls_certificate_secret: external-root-ca
+    root_ca_secret: external-root-ca
+    sc_deployment_license: non-production
     sc_ingress_enable: false
     sc_ingress_tls_secret_name: ''
     sc_deployment_platform: OCP
