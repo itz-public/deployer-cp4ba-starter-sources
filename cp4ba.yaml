@@ -110,12 +110,12 @@ spec:
     application:
       ban: false
     content:
-      bai: true
-      cmis: true
-      css: true
-      iccsap: true
-      ier: true
-      tm: true
+      bai: false
+      cmis: false
+      css: false
+      iccsap: false
+      ier: false
+      tm: false
     decisions:
       bai: false
     workstreams:
@@ -280,7 +280,8 @@ spec:
     database_precheck: true
     dc_ssl_enabled: true
   shared_configuration:
-    trusted_certificate_list: []
+    trusted_certificate_list:
+      - external-root-ca
     storage_configuration:
       sc_dynamic_storage_classname: ocs-storagecluster-cephfs
       sc_block_storage_classname: ocs-storagecluster-ceph-rbd
@@ -294,9 +295,9 @@ spec:
     sc_drivers_url: ''
     encryption_key_secret: ''
     sc_deployment_baw_license: ''
-    external_tls_certificate_secret: external-root-ca
+    external_tls_certificate_secret: ''
     root_ca_secret: external-root-ca
-    sc_deployment_license: non-production
+    sc_deployment_license: ''
     sc_ingress_enable: false
     sc_ingress_tls_secret_name: ''
     sc_deployment_platform: OCP
