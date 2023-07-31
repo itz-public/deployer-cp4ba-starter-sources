@@ -280,8 +280,7 @@ spec:
     database_precheck: true
     dc_ssl_enabled: true
   shared_configuration:
-    trusted_certificate_list:
-      - external-root-ca
+    trusted_certificate_list: ''
     storage_configuration:
       sc_dynamic_storage_classname: ocs-storagecluster-cephfs
       sc_block_storage_classname: ocs-storagecluster-ceph-rbd
@@ -296,7 +295,7 @@ spec:
     encryption_key_secret: ''
     sc_deployment_baw_license: ''
     external_tls_certificate_secret: ''
-    root_ca_secret: external-root-ca
+    root_ca_secret: ''
     sc_deployment_license: ''
     sc_ingress_enable: false
     sc_ingress_tls_secret_name: ''
