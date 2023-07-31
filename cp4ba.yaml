@@ -280,7 +280,7 @@ spec:
     database_precheck: true
     dc_ssl_enabled: true
   shared_configuration:
-    trusted_certificate_list: ''
+    trusted_certificate_list: []
     storage_configuration:
       sc_dynamic_storage_classname: ocs-storagecluster-cephfs
       sc_block_storage_classname: ocs-storagecluster-ceph-rbd
