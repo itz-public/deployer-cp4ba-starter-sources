@@ -342,7 +342,7 @@ spec:
   olm_production_decisions_ads: false
   olm_production_workflow: false
   appVersion: ${2}
-  olm_starter_decisions: true
+  olm_starter_decisions: false
   olm_starter_document_processing: false
   olm_production_application: false
   olm_starter_content: true
