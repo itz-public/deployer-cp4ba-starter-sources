@@ -93,8 +93,10 @@ spec:
       bai: false
     wfps_authoring:
       bai: false
+      pfs: false
     workfow_authoring:
       bai: false
+      pfs: false
     workfow_runtime:
       bai: false
   odm_configuration:
@@ -139,14 +141,14 @@ spec:
       database_servername: ''
       dc_hadr_validation_timeout: 15
       dc_hadr_standby_servername: ''
-      dc_database_type: db2
+      dc_database_type: postgresql
     dc_odm_datasource:
       database_servername: ''
       dc_common_database_instance_secret: ''
       dc_common_database_name: ''
       dc_common_database_port: ''
       dc_common_ssl_enabled: true
-      dc_database_type: db2
+      dc_database_type: postgresql
       dc_ssl_secret_name: ''
     dc_icn_datasource:
       database_ssl_secret_name: ''
@@ -280,7 +282,12 @@ spec:
     database_precheck: true
     dc_ssl_enabled: true
   shared_configuration:
+    sc_iam:
+      default_admin_username: ''
     trusted_certificate_list: []
+    sc_common_service:
+      operator_namespace: ''
+      services_namespace: ''
     storage_configuration:
       sc_dynamic_storage_classname: ocs-storagecluster-cephfs
       sc_block_storage_classname: ocs-storagecluster-ceph-rbd
@@ -296,7 +303,7 @@ spec:
     sc_deployment_baw_license: ''
     external_tls_certificate_secret: ''
     root_ca_secret: ''
-    sc_deployment_license: ''
+    sc_deployment_license: non-production
     sc_ingress_enable: false
     sc_ingress_tls_secret_name: ''
     sc_deployment_platform: OCP
