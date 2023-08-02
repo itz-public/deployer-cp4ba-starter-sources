@@ -331,11 +331,11 @@ spec:
   olm_deployment_type: Starter
   olm_ibm_license: true
   olm_starter_decisions_ads: false
-  olm_starter_application: true
+  olm_starter_application: false
   olm_production_decisions_ads: false
   olm_production_workflow: false
   appVersion: ${2}
-  olm_starter_decisions: true
+  olm_starter_decisions: false
   olm_starter_document_processing: false
   olm_production_application: false
   olm_starter_content: true
