@@ -2,7 +2,6 @@ import os
 import subprocess
 import json
 
-
 namespace = os.environ.get("NAMESPACE")
 configmap_name = "icp4adeploy-cp4ba-access-info"
 command = f"oc get configmap/{configmap_name} -n {namespace} -o" + "jsonpath='{.data}'"
