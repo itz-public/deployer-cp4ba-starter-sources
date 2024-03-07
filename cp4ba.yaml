@@ -294,7 +294,7 @@ spec:
     sc_drivers_url: ''
     encryption_key_secret: ''
     sc_deployment_baw_license: ''
-    external_tls_certificate_secret: ''
+    external_tls_certificate_secret: cp4a-wildcard
     root_ca_secret: icp4a-root-ca
     sc_deployment_license: non-production
     sc_ingress_enable: false
@@ -325,8 +325,8 @@ spec:
     lc_ldap_group_name_attribute: '*:cn'
     lc_ldap_group_display_name_attr: cn
     lc_ldap_ssl_enabled: true
-  olm_production_document_processing: false
-  olm_production_decisions: false
+  olm_production_document_processing: true
+  olm_production_decisions: true
   olm_production_content: false
   olm_deployment_type: Starter
   olm_ibm_license: true
@@ -335,9 +335,9 @@ spec:
   olm_production_decisions_ads: false
   olm_production_workflow: false
   appVersion: ${2}
-  olm_starter_decisions: false
-  olm_starter_document_processing: false
-  olm_production_application: false
+  olm_starter_decisions: true
+  olm_starter_document_processing: true
+  olm_production_application: true
   olm_starter_content: true
-  olm_production_workflow_process_service: false
+  olm_production_workflow_process_service: true
   olm_starter_workflow: false
