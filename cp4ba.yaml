@@ -294,7 +294,7 @@ spec:
     sc_drivers_url: ''
     encryption_key_secret: ''
     sc_deployment_baw_license: ''
-    external_tls_certificate_secret: cp4a-wildcard
+    external_tls_certificate_secret: ''
     root_ca_secret: icp4a-root-ca
     sc_deployment_license: non-production
     sc_ingress_enable: false
@@ -340,4 +340,4 @@ spec:
   olm_production_application: false
   olm_starter_content: true
   olm_production_workflow_process_service: false
-  olm_starter_workflow: false
+  olm_starter_workflow: true
