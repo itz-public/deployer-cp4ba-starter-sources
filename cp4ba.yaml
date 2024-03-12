@@ -110,9 +110,9 @@ spec:
     application:
       ban: false
     content:
-      bai: false
-      cmis: false
-      css: false
+      bai: true
+      cmis: true
+      css: true
       iccsap: false
       ier: false
       tm: false
