@@ -99,7 +99,7 @@ spec:
       bai: false
   odm_configuration:
     decisionRunner:
-      replicaCount: 0
+      replicaCount: 1
   olm_starter_option:
     adp:
       cmis: true
