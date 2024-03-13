@@ -102,29 +102,29 @@ spec:
       replicaCount: 0
   olm_starter_option:
     adp:
-      cmis: false
-      css: false
-      tm: false
+      cmis: true
+      css: true
+      tm: true
     ads:
-      bai: false
+      bai: true
     application:
-      ban: false
+      ban: true
     content:
       bai: true
       cmis: true
       css: true
       iccsap: false
-      ier: false
-      tm: false
+      ier: true
+      tm: true
     decisions:
-      bai: false
+      bai: true
     workstreams:
-      case: false
-      content_integration: false
-      workstreams: false
-      pfs: false
-      bai: false
-      baml: false
+      case: true
+      content_integration: true
+      workstreams: true
+      pfs: true
+      bai: true
+      baml: true
   datasource_configuration:
     dc_ca_datasource:
       tenant_databases: []
