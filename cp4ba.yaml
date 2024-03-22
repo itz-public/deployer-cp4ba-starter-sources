@@ -332,7 +332,7 @@ spec:
   olm_ibm_license: true
   olm_starter_decisions_ads: true
   olm_starter_application: true
-  olm_production_decisions_ads: true
+  olm_production_decisions_ads: false
   olm_production_workflow: false
   appVersion: ${2}
   olm_starter_decisions: true
