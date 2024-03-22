@@ -106,7 +106,7 @@ spec:
       css: true
       tm: true
     ads:
-      bai: false
+      bai: true
     application:
       ban: true
     content:
@@ -330,9 +330,9 @@ spec:
   olm_production_content: false
   olm_deployment_type: Starter
   olm_ibm_license: true
-  olm_starter_decisions_ads: false
+  olm_starter_decisions_ads: true
   olm_starter_application: true
-  olm_production_decisions_ads: false
+  olm_production_decisions_ads: true
   olm_production_workflow: false
   appVersion: ${2}
   olm_starter_decisions: true
@@ -340,4 +340,4 @@ spec:
   olm_production_application: false
   olm_starter_content: true
   olm_production_workflow_process_service: false
-  olm_starter_workflow: true
+  olm_starter_workflow: false
