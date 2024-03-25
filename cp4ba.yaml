@@ -340,4 +340,4 @@ spec:
   olm_production_application: false
   olm_starter_content: true
   olm_production_workflow_process_service: false
-  olm_starter_workflow: false
+  olm_starter_workflow: true
