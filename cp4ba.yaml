@@ -300,7 +300,7 @@ spec:
     sc_ingress_enable: false
     sc_ingress_tls_secret_name: ''
     sc_deployment_platform: OCP
-    sc_deployment_fncm_license: ''
+    sc_deployment_fncm_license: non-production
   ldap_configuration:
     tds:
       lc_group_filter: >-
